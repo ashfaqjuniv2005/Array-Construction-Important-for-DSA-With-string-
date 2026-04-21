@@ -27,7 +27,8 @@ int main()
             for(int i=n;i>idx;i--){
                 arr[i]=arr[i-1];
             }
-            
+            // for(int i=n;i>idx;i--)
+            // for(int i=n;i>=idx+1;i--)
             arr[idx]=val;
             printf("Array after insertion is:\n");
             for(int i=0;i<=n;i++){
